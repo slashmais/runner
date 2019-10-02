@@ -1,0 +1,15 @@
+description "run apps and shell-calls\377";
+
+uses
+	utilfuncs;
+
+library
+	pthread;
+
+file
+	runner.h,
+	runner.cpp;
+
+mainconfig
+	"" = "";
+
